@@ -9,9 +9,11 @@ def main():
     Path("data/raw").mkdir(parents=True, exist_ok=True)
     Path("data/normalized").mkdir(parents=True, exist_ok=True)
 
+    """""
     print("\nStep 1: Extracting uncleaned products...")
     run_extract_unclean_data()
-
+    """""
+    
     print("\nStep 2: Cleaning refs...")
     run_clean_refs()
 
