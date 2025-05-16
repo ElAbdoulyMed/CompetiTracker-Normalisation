@@ -1,4 +1,4 @@
-def run_clean_refs(input="./data/raw/CompetiTracker.uncleaned.json" , output="./data/normalized/CompetiTracker.cleaned.json"):
+def run_clean_refs(input="./data/raw/CompetiTracker.products.json" , output="./data/normalized/CompetiTracker.cleaned.json"):
     import json
     import re
 
