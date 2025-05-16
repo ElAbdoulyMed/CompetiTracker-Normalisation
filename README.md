@@ -1,8 +1,9 @@
  ## Installation
 ```bash
 git clone https://github.com/ElAbdoulyMed/CompetiTracker-Normalisation.git
+pip install -r requirements.txt
 ```
-## How to use
+## Usage
 ```bash
 python main.py
 ```
